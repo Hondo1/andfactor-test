@@ -1,0 +1,329 @@
+
+/* === = == === appended by mycon === = == ===  */
+
+
+@font-face {
+    font-family: 'vegurlight';
+    src: url('http://theandfactor.com/fonts/vegur-light-webfont.eot');
+    src: url('http://theandfactor.com/fonts/vegur-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://theandfactor.com/fonts/vegur-light-webfont.woff') format('woff'),
+         url('http://theandfactor.com/fonts/vegur-light-webfont.ttf') format('truetype'),
+         url('http://theandfactor.com/fonts/vegur-light-webfont.svg#vegurlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'vegurregular';
+    src: url('http://theandfactor.com/fonts/vegur-regular-webfont.eot');
+    src: url('http://theandfactor.com/fonts/vegur-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://theandfactor.com/fonts/vegur-regular-webfont.woff') format('woff'),
+         url('http://theandfactor.com/fonts/vegur-regular-webfont.ttf') format('truetype'),
+         url('http://theandfactor.com/fonts/vegur-regular-webfont.svg#vegurregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'vegurregular', sans serif;
+  font-weight: bold;
+  color: #666666;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.2125em; }
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 60%;
+    color: #b3b3b3;
+    line-height: 0; }
+
+h1 {
+  font-size: 2.125em; padding-top: .95em; margin-bottom: 1.5em; }
+
+h2 {
+  font-size: 1.6875em; }
+
+h3 {
+  font-size: 1.375em; }
+
+h4 {
+  font-size: 1.125em; }
+
+h5 {
+  font-size: 1.125em; }
+
+h6 {
+  font-size: 1em; }
+
+hr {
+  border: solid #dddddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.25em 0 1.1875em;
+  height: 0; }
+
+/* Helpful Typography Defaults */
+
+small {
+  font-size: 60%;
+  line-height: inherit; }
+
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: bold;
+  color: #7f0a0c; }
+
+h1, h2, h3, h4, h5, h6{
+font-weight: bold;
+color:#222;
+}
+
+p {
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: normal;
+font-size: .9em;
+line-height: 1.6;
+margin-bottom: .5em;
+}
+
+ol { padding-left: 30px	}
+
+.bullet { list-style-position: inside; text-indent: 15px; font-size: inherit; }
+
+.panel { 
+	letter-spacing: .15em; 
+	background-color: #222; 
+	border: 0px solid #000; 
+	color: #222; 
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+	z-index: -1; background: rgba(255, 243, 5, 1.0) url(http://theandfactor.com/images/grey_dots.png); background-repeat:repeat;
+	margin-bottom: 0em;
+	padding-top: 25px;
+}
+
+.panel-grey { 
+	letter-spacing: .15em; 
+	background-color: #F5F5F5; 
+	border: 0px solid #000; 
+	color: #222; 
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: 0em;
+	padding-top: 25px;
+}
+
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
+color: #111;
+font-weight: 800;
+}
+.panel p { font-weight: normal; color: #dcdcdc; }
+
+
+/* === = == === NAV === = == ===  */
+
+/* begin MENU ON-PAGE LINK HIGHLIGHT */
+
+a:hover{
+color: yellow;
+text-decoration: none;
+line-height: inherit;
+}
+
+#home-page a.home_link {
+   color: yellow; 
+}
+
+#about-page a.about_link {
+   color: yellow; 
+}
+
+#fast-track-page a.fast_track_link {
+   color: yellow; 
+}
+
+#contact-page a.contact_link {
+   color: yellow;
+}
+
+/* END MENU ON-PAGE LINK HIGHLIGHT */
+
+.contain-to-grid .top-bar {
+max-width: 62.5em;
+margin: 0 auto;
+margin-bottom: 0em;
+
+font-family: 'Open Sans', sans-serif;
+}
+
+.contain-to-grid {
+width: 100%;
+border-top: thin solid #222;
+border-bottom: thin solid #222;
+}
+
+.top-bar {
+background: #000;
+
+}
+.top-bar .name h1 a {
+font-weight: normal;
+color: #555;
+}
+
+.top-bar .name img{
+padding-top: 5px;
+}
+
+.top-bar-section ul li > a {
+display: block;
+width: 100%;
+font-weight: normal;
+letter-spacing: .12em;
+color: #dcdcdc;
+padding: 12px 0 12px 0;
+padding-left: 15px;
+font-size: 0.89em;
+background: #333;
+}
+
+.top-bar-section ul li > a:hover {
+color: yellow;
+}
+
+.top-bar.expanded .toggle-topbar a {
+color: yellow;
+}
+
+.top-bar-section li a:not(.button) {
+padding: 0 15px;
+line-height: 43px;
+background: #000;
+}
+
+    .top-bar .toggle-topbar.menu-icon {
+      right: 15px;
+      top: 50%;
+      margin-top: -16px;
+      padding-left: 40px; }
+      .top-bar .toggle-topbar.menu-icon a {
+        text-indent: -48px;
+        width: 34px;
+        height: 34px;
+        line-height: 33px;
+        padding: 0;
+        color: white; }
+        .top-bar .toggle-topbar.menu-icon a span {
+          position: absolute;
+          right: 0;
+          display: block;
+          width: 16px;
+          height: 0;
+          -webkit-box-shadow: 0 10px 0 1px yellow, 0 16px 0 1px yellow, 0 22px 0 1px white;
+          box-shadow: 0 10px 0 1px yellow, 0 16px 0 1px yellow, 0 22px 0 1px yellow; }
+  .top-bar.expanded {
+    height: auto;
+    background: transparent; }
+    .top-bar.expanded .title-area {
+      background: #111111; }
+    .top-bar.expanded .toggle-topbar a {
+      color: #888888; }
+      .top-bar.expanded .toggle-topbar a span {
+        -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
+        box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; }
+
+@media only screen and (min-width: 58.75em)
+.contain-to-grid .top-bar {
+max-width: 62.5em;
+margin: 0 auto;
+margin-bottom: 0em;
+}
+
+@media only screen and (min-width: 58.75em)
+.top-bar {
+background: #333;
+overflow: visible;
+}
+
+.full {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+margin-bottom: 0;
+max-width: 100%;
+}
+
+/* === = == === MISC === = == ===  */
+
+.bot-shadow {
+-webkit-box-shadow: 0 28px 20px -20px #333;
+-moz-box-shadow: 0 28px 20px -20px #333;
+box-shadow: 0 28px 20px -20px #333;
+}
+
+.crnd {
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+-khtml-border-radius: 2px;
+border-radius: 2px;
+}
+
+.rnd { border-radius: 55px; margin-bottom: 12px }
+.one {padding-top: 130px; }
+.even {  display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+img.even {padding-top: 10px;}
+
+.header.row  { background: #dcdcdc;}
+
+
+/* === = == === FOOTER === = == ===  */
+
+footer {
+  background-color:#666;
+	margin-top:40px;
+}
+
+footer, hr {
+border-color: #666;
+}
+
+
+/* === = == === MEDIA QUERIES === = == ===  */
+
+/* We use this media query to add styles to any device that supports media queries */
+@media only screen { }
+
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media only screen and (min-width: 768px) {}
+
+/* Used to alter styles for screens at least 1280px wide. */
+@media only screen and (min-width: 1280px) {}
+
+/* Used to alter styles for screens at least 1440px wide. */
+@media only screen and (min-width: 1440px) {}
+
+/* Apply styles to screens in landscape orientation */
+@media only screen and (orientation: landscape) {}
+
+/* Apply styles to screens in portrait orientation */
+@media only screen and (orientation: portrait) {}
+
+/* We also use Modernizr to add a .touch class to the body when applicable */
+/* You can prepend this class to anything and it will style only for touch devices */
+.touch .your-element {}
